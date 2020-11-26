@@ -5,9 +5,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Op GG</Text>
-      <Text>Whooper</Text>
-      <Text>Sick lad</Text>
+      <Text>Press to get a whooping</Text>
       <Button title="Get WHOOPED" />
       <TouchableOpacity style={styles.button}>
         <Text>Get Whooped 2</Text>
@@ -20,12 +18,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: "lightblue",
     alignItems: "center",
     justifyContent: "space-around",
   },
   button: {
-    backgroundColor: "red",
+    backgroundColor: "coral",
     padding: 20,
   },
 });
