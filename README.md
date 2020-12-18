@@ -1,3 +1,3 @@
-# ReactNativeTut
+# ReactNativeExpo
 
-Tutorial from Youtube to learn React Native
+Tutorial from Youtube to learn React Native using Expo.
